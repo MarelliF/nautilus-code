@@ -1,7 +1,7 @@
 import gettext
 
 def _setup_gettext():
-    gettext.bindtextdomain('nautilus-code', '@localedir@')
+    gettext.bindtextdomain('nautilus-code', '/home/mfrancois/.local/share/locale')
     gettext.textdomain('nautilus-code')
 
 _setup_gettext()
